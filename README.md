@@ -1,5 +1,6 @@
 # screenfetch-ascii
 Wrote a bash script to append screenfetch info line by line to ascii art in the shell.
+
 [Usage instructions](#usage-instructions) below if you want to skip me yapping about why I made this.
 
 ---
