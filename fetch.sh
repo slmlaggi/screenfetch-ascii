@@ -13,7 +13,8 @@ mapfile -t ascii_art < ascii.txt
 
 # OPTIONAL: Get song title using musicprofiler
 # You can use other software to get song title, but musicprofiler works best for me
-songTitle=$(cd ~/musicprofiler && ./musicprofiler.exe)
+# Uncomment the line to use it
+# songTitle=$(cd ~/musicprofiler && ./musicprofiler.exe)
 
 # Get screenfetch output with your preferred tags (-n is to omit the default distro ascii art)
 screenfetch_output=$(screenfetch -c ",\e[1;36" -n)
@@ -21,9 +22,10 @@ screenfetch_output=$(screenfetch -c ",\e[1;36" -n)
 # Split screenfetch output into lines
 IFS=$'\n' read -d '' -r -a info_lines <<< "$screenfetch_output"
 
-# Add song information as a new line at the end of screenfetch output
-song_info="${c5}Song: \e[96m$songTitle"
-info_lines+=(" $song_info")
+# OPTIONAL: Add song information as a new line at the end of screenfetch output
+# Uncomment the lines below to use it
+# song_info="${c5}Song: \e[96m$songTitle"
+# info_lines+=(" $song_info")
 
 # Combine ASCII art with screenfetch output
 combined_output=()
