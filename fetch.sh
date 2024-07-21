@@ -9,7 +9,7 @@ c5='\033[0;31m'  # Red
 reset='\033[0m'  # Reset color
 
 # Read ASCII art from the file
-mapfile -t ascii_art < rushia_ascii.txt
+mapfile -t ascii_art < ascii.txt
 
 # OPTIONAL: Get song title using musicprofiler
 # You can use other software to get song title, but musicprofiler works best for me
