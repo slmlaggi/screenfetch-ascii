@@ -14,4 +14,5 @@ So I just doubled down and wrote this script using about an hour of my time. It 
 3. Open up `fetch.sh` in your preferred code editor. If you have changed the name/directory of your ascii file, replace `ascii.txt` on line 12 with the directory of your file.
 4. The infoFetch program used is default to [Screenfetch](https://github.com/KittyKatt/screenFetch), an alternative to Neofetch. If you want to use other programs to generate info or change the screenfetch tags, feel free to do so by editing the content of the `screenfetch_output` variable on line 20.
 5. OPTIONAL: You may uncomment out lines 17, 27, and 28 if you want to add a line that displays the current song that you're listening to the info generated. Use whatever program to fetch the music title, but [Musicprofiler](https://ongezell.com/software/musicidentifier/musicprofilerv1.7z) works best for me.
-6. Save `fetch.sh`. Run `chmod +x fetch.sh` to make sure you have run permissions. Open up `~/.bashrc` and add ./fetch.sh wherever you want. Remember to remove any screenfetch or neofetch commands if you're using them.
+6. Save `fetch.sh`. Run `chmod +x fetch.sh` to make sure you have run permissions. Open up `~/.bashrc` and add `./fetch.sh` wherever you want. Remember to remove any screenfetch or neofetch commands if you're using them.
+7. Voila! You're done.
