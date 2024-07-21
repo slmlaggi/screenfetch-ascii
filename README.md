@@ -6,7 +6,6 @@ Wrote a bash script to append screenfetch info line by line to ascii art in the 
 There's something about this that just feels.. comforting.
 ![image](https://github.com/user-attachments/assets/4ec2758b-6569-48d5-ab60-8f2ce9712a95)
 
-
 ---
 # But... why this script?
 I found out that `screenfetch -a ascii.sh` only works if the ascii art is small enough in size, which is frustrating because the lack of detail makes the art basically unviewable in my case.
