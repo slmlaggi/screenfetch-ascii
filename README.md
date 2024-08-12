@@ -20,3 +20,7 @@ So I just doubled down and wrote this script using about an hour of my time. It 
 5. **OPTIONAL**: You may uncomment out lines 17, 27, and 28 if you want to add a line that displays the current song that you're listening to the info generated. Use whatever program to fetch the music title, but [Musicprofiler](https://ongezell.com/software/musicidentifier/musicprofilerv1.7z) works best for me.
 6. Save `fetch.sh`. Run `chmod +x fetch.sh` to make sure you have run permissions. Open up `~/.bashrc` and add `./fetch.sh` wherever you want. Remember to remove any screenfetch or neofetch commands if you're using them.
 7. Voila! You're done.
+
+---
+# UPDATE
+Ok.. this sounds pretty dumb but screenfetch was too slow even after configuring it for performance. Now I've switched to using fastfetch and the uwuntu logo so I no longer need this script. :/
